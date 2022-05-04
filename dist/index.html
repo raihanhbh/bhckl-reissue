@@ -10,25 +10,31 @@
   <body class="container">
     <form class="form-data" autocomplete="on">
       <div class="enter-country">
-        Enter a country name to get more information:
+        Add delivery slip number:
       </div>
       <div>
-        <input type="text" class="country-name" />
+        <input type="text" class="delivery-slip-no" />
       </div>
-      <button class="search-btn">Search</button>
+      <button class="search-btn">Add</button>
     </form>
-    <div class="result">
-      <div class="loading">loading...</div>
-      <div class="errors"></div>
-      <div class="data"></div>
-      <div class="result-container">
-        <p><strong>Total cases: </strong><span class="cases"></span></p>
-        <p>
-          <strong>Total recovered: </strong> <span class="recovered"></span>
-        </p>
-        <p><strong>Total deaths: </strong><span class="deaths"></span></p>
-      </div>
-    </div>
+
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Delivery Slip No.</th>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+  
+      <tbody id="data-table-rows"></tbody>
+      
+      
+    </table>
+
+    <button id="check-status">Check Status</button>
+   
+
 
     <script src="main.js"></script>
   </body>

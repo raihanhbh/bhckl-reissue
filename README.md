@@ -2,9 +2,9 @@
 
 A simple chrome extension built in HTML, CSS and JS that allows users search for live coronavirus data on any country.
 
-## Video demo
+## Image demo
 
-![](./covtension.gif)
+![](./demo.png)
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple steps.
 - git clone the repo
 
 ```
-git clone https://github.com/onedebos/covtension && cd covtension
+git clone https://github.com/raihanhbh/bhckl-reissue && cd bhckl-reissue
 ```
 
 - Install all the required packages with
@@ -42,10 +42,6 @@ To install in Chrome
 
 - Currently, there are no automated tests avaailable for this project. This will be implemented at a later date.
 
-## Authors
+## Author
 
-👤 **Adebola**
-
-- Github: [@githubhandle](https://github.com/onedebos)
-- Twitter: [@twitterhandle](https://twitter.com/debosthefirst)
-- Linkedin: [linkedin](https://www.linkedin.com/in/adebola-niran/)
+👤 **Raihan Habib**
